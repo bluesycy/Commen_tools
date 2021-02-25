@@ -1,3 +1,5 @@
+### Plot configuration
+
 fig_width = 4.2 # width in inches
 fig_height = 3.  # height in inches
 fig_size =  [fig_width,fig_height]
