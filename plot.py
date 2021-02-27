@@ -8,3 +8,6 @@ plt.rcParams['figure.autolayout'] = True
 plt.rcParams['font.size'] = 12
 plt.rcParams['axes.spines.top'] = False
 plt.rcParams['axes.spines.right'] = False
+
+
+plt.eventplot(interval_spike_times[neuron_idx], color=".2")
