@@ -11,3 +11,7 @@ plt.rcParams['axes.spines.right'] = False
 
 
 plt.eventplot(interval_spike_times[neuron_idx], color=".2")
+
+
+_ = widgets.interact(Myplot_E_diffI_difftau, I_ext=(0.0, 10., 1.),
+                     tau=(1., 5., 0.2))
