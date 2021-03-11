@@ -6,3 +6,5 @@ for i in i_neurons:
     "\n",
     sep="\n"
   )
+  
+  print(set(list(data.flatten())))#print non-repeated elements
